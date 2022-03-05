@@ -37,8 +37,8 @@ class WelcomeController: UIViewController {
         view.addSubview(bg)
         bg.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
         bg.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20).isActive = true
-        bg.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -60).isActive = true
-        bg.bottomAnchor.constraint(equalTo: bg.bottomAnchor, constant: -100).isActive = true
+        bg.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+        bg.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -100).isActive = true
         
         view.addSubview(titleLabel)
         titleLabel.widthAnchor.constraint(equalToConstant: 100).isActive = true
@@ -58,7 +58,7 @@ class WelcomeController: UIViewController {
         nextButton.centerXAnchor.constraint(equalTo: bg.centerXAnchor).isActive = true
         nextButton.centerYAnchor.constraint(equalTo: bg.bottomAnchor, constant: -60).isActive = true
         nextButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        nextButton.heightAnchor.constraint(equalToConstant: 41).isActive = true
+        nextButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         
         view.addSubview(copyrightLabel)
