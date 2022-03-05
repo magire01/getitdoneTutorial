@@ -21,12 +21,20 @@ class WelcomeController: UIViewController {
    
     let nextButton = GDButton(title: "Next")
     
-    
+    @objc func handleNext() {
+        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            self.nextButton.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        }) { (_) in
+            UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+                self.nextButton.transform = CGAffineTransform(scaleX: 1, y: 1)
+            })
+       }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        nextButton.addTarget((Any).self, action: #selector(self.handleNext), for: .touchUpInside)
         view.backgroundColor = .white
 
         view.addSubview(bg)
@@ -63,7 +71,7 @@ class WelcomeController: UIViewController {
         copyrightLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
     
     }
-
+    
 
 }
 
