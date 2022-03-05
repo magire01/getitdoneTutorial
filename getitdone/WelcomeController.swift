@@ -22,13 +22,17 @@ class WelcomeController: UIViewController {
     let nextButton = GDButton(title: "Next")
     
     @objc func handleNext() {
-        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
-            self.nextButton.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        UIView.animate(withDuration: 0.1, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            self.nextButton.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
         }) { (_) in
             UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
                 self.nextButton.transform = CGAffineTransform(scaleX: 1, y: 1)
-            })
-       }
+            }) { (_) in
+                self.present(ListController(), animated: true, completion: nil)
+            }
+        }
+        
+        
     }
     
     override func viewDidLoad() {

@@ -10,6 +10,7 @@
 		59153A0027D335BB005B2C1E /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 591539FF27D335BB005B2C1E /* Raleway-VariableFont_wght.ttf */; };
 		59153A0227D33803005B2C1E /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59153A0127D33803005B2C1E /* Raleway-ExtraBold.ttf */; };
 		59569F5F27D3BE8D0085FC91 /* GDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59569F5E27D3BE8D0085FC91 /* GDButton.swift */; };
+		59569F6127D3CA6B0085FC91 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59569F6027D3CA6B0085FC91 /* ListController.swift */; };
 		59A8FC0227CC91AA00E6C62C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8FC0127CC91AA00E6C62C /* AppDelegate.swift */; };
 		59A8FC0427CC91AA00E6C62C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8FC0327CC91AA00E6C62C /* SceneDelegate.swift */; };
 		59A8FC0627CC91AA00E6C62C /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8FC0527CC91AA00E6C62C /* WelcomeController.swift */; };
@@ -45,6 +46,7 @@
 		591539FF27D335BB005B2C1E /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		59153A0127D33803005B2C1E /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
 		59569F5E27D3BE8D0085FC91 /* GDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDButton.swift; sourceTree = "<group>"; };
+		59569F6027D3CA6B0085FC91 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		59A8FBFE27CC91AA00E6C62C /* getitdone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getitdone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A8FC0127CC91AA00E6C62C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59A8FC0327CC91AA00E6C62C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				59A8FC0F27CC91AD00E6C62C /* LaunchScreen.storyboard */,
 				59A8FC1227CC91AD00E6C62C /* Info.plist */,
 				59A8FC0A27CC91AA00E6C62C /* getitdone.xcdatamodeld */,
+				59569F6027D3CA6B0085FC91 /* ListController.swift */,
 			);
 			path = getitdone;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				59569F5F27D3BE8D0085FC91 /* GDButton.swift in Sources */,
 				59A8FC0627CC91AA00E6C62C /* WelcomeController.swift in Sources */,
+				59569F6127D3CA6B0085FC91 /* ListController.swift in Sources */,
 				59A8FC0C27CC91AA00E6C62C /* getitdone.xcdatamodeld in Sources */,
 				59A8FC0227CC91AA00E6C62C /* AppDelegate.swift in Sources */,
 				59A8FC3B27CCA47100E6C62C /* GDLabel.swift in Sources */,
