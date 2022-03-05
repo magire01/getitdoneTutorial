@@ -130,11 +130,11 @@
 				59A8FC0127CC91AA00E6C62C /* AppDelegate.swift */,
 				59A8FC0327CC91AA00E6C62C /* SceneDelegate.swift */,
 				59A8FC0527CC91AA00E6C62C /* WelcomeController.swift */,
+				59569F6027D3CA6B0085FC91 /* ListController.swift */,
 				59A8FC0D27CC91AD00E6C62C /* Assets.xcassets */,
 				59A8FC0F27CC91AD00E6C62C /* LaunchScreen.storyboard */,
 				59A8FC1227CC91AD00E6C62C /* Info.plist */,
 				59A8FC0A27CC91AA00E6C62C /* getitdone.xcdatamodeld */,
-				59569F6027D3CA6B0085FC91 /* ListController.swift */,
 			);
 			path = getitdone;
 			sourceTree = "<group>";
